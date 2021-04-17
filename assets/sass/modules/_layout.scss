@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../images/Background.svg);
+    background-size: cover;
+    background-position: center;
+    height: 1080px;
+
+    #app {
+      max-width: 1140px;
+      width: 1140px;
+      padding: 5px;
+    }
+}

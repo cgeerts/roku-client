@@ -1,0 +1,54 @@
+.parents-kids {
+
+  margin-top: 150px;
+  
+  .container {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .parents-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    font-family: $main-font-family;
+    padding-top: 20px;
+  }
+  
+  .kids-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    font-family: $kids-font-family;
+    padding-top: 20px;
+  }
+  }
+  
+  .profile-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+  
+  .column {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 600px;
+  padding-right: 30px;
+  padding-left: 30px;
+  }
+  
+  #profile-icon {
+  display: flex;
+  align-self: center;
+  height: 400px;
+  width: 400px;
+  &:hover {
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.349);
+    cursor: pointer;
+  }
+  }
